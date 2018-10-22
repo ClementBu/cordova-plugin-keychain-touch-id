@@ -30,6 +30,9 @@
         <framework src="Security.framework" />
         <framework src="Foundation.framework"/>
         <framework src="LocalAuthentication.framework"/>
+        <config-file target="*-Info.plist" parent="NSFaceIDUsageDescription">
+	    <string>L'application souhaite utiliser le face id pour vous identifier pour la connexion</string>
+        </config-file>
     </platform>
 
     <!-- android -->
